@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "12.13.0"
+    "node": "12.13.0",
+    "yarn": "1.19.1"
   },
   "scripts": {
     "start": "ts-node src/index.ts",
@@ -22,6 +23,11 @@
   },
   "dependencies": {
     "discord.js": "^11.5.1",
-    "yarn": "^1.19.2"
+    "yarn": "^1.19.2",
+    "@types/node": "^12.12.11",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.5.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
   }
 }
